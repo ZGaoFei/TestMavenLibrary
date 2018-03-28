@@ -2,7 +2,8 @@
 
 buildscript {
     repositories {
-        maven { url 'E:/home/lv/.m2/repository/' }
+//        maven { url 'E:/home/lv/.m2/repository/' }
+        maven { url 'http://127.0.0.1:8000/repository/maven-releases/' }
         jcenter()
 
     }
@@ -14,11 +15,10 @@ buildscript {
     }
 }
 
-//maven { url 'E:/home/lv/.m2/repository/' }
-
 allprojects {
     repositories {
-        maven { url 'E:/home/lv/.m2/repository/' }
+//        maven { url 'E:/home/lv/.m2/repository/' }
+        maven { url 'http://127.0.0.1:8000/repository/maven-releases/' }
         jcenter()
     }
 }
